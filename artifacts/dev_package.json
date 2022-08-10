@@ -1,0 +1,144 @@
+{
+	"id": "b1c5d619-3e13-4bbb-875e-88eb3d2c34f7",
+	"createdAt": "2022-08-10T19:31:41.706Z",
+	"createdBy": "VSawan10",
+	"git": {
+		"targetServers": [],
+		"remote": "https://github.com/vsawan10/LocalCode.git",
+		"readme": "scripts for HRIA application",
+		"testServers": [],
+		"packageJSON": [
+			"==OBJECT STRING==",
+			"{",
+			"  \"name\": \"localCodePackage\",",
+			"  \"version\": \"1.0.0\",",
+			"  \"description\": \"package created for trying out local code\",",
+			"  \"author\": \"Neptune Software\",",
+			"  \"license\": \"LicenseRef-LICENSE\",",
+			"  \"private\": true,",
+			"  \"scripts\": {",
+			"    \"deploy\": \"ts-node src/deploy.ts\",",
+			"    \"test\": \"jest --passWithNoTests\"",
+			"  },",
+			"  \"engines\": {",
+			"    \"node\": \"14.16.0\"",
+			"  },",
+			"  \"devDependencies\": {",
+			"    \"@types/jest\": \"^26.0.23\",",
+			"    \"typescript\": \"^4.2.3\",",
+			"    \"ts-node\": \"^10.0.0\",",
+			"    \"axios\": \"^0.21.1\",",
+			"    \"jest\": \"^27.0.4\",",
+			"    \"ts-jest\": \"^27.0.3\"",
+			"  }",
+			"}",
+			""
+		]
+	},
+	"name": "localCodePackage",
+	"description": "package created for trying out local code",
+	"ver": "22.8.10.1639",
+	"enableCICD": true,
+	"apps": [],
+	"api": [],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [],
+	"jsclass": [
+		{
+			"id": "c99e73c1-60e1-4bb1-aa43-c89221cdf6a3",
+			"name": "HRIA_RULE_ENGINE_FETCH_PGAREA",
+			"description": "script to run the rule engine for PG Area"
+		},
+		{
+			"id": "7ef685ba-853d-4760-bfc8-c21540b5b615",
+			"name": "HRIA_FETCH_HIRE_TYPE",
+			"description": "script to fetch the hire type"
+		},
+		{
+			"id": "0b37b56c-b80f-43fe-aa3a-c1112ffedaf3",
+			"name": "HRIA_RULE_ENGINE_FETCH_REGION_BASED_COUNTRIES",
+			"description": "script for fetching region based countries."
+		},
+		{
+			"id": "c2ec92c6-dad3-4c31-95a6-d0d3f2e2bbe1",
+			"name": "HRIA_FETCH_JOB_DETAILS",
+			"description": "script to fetch job title, function and years of Experience."
+		},
+		{
+			"id": "15b0f190-95f9-4b5b-87d4-db8dd241a28b",
+			"name": "HRIA_FETCH_ALL_COUNTRIES",
+			"description": "script to fetch all the possible countries maintained in config"
+		},
+		{
+			"id": "d041c5dd-937c-48bc-9440-6d1ce245ca6a",
+			"name": "HRIA_FETCH_LABELTEXTS",
+			"description": "script to fetch the label texts"
+		},
+		{
+			"id": "9b099892-5ce5-4b6d-a28c-f0626d1b774a",
+			"name": "HRIA_RULE_ENGINE_GSTR_NOTIFICATION",
+			"description": "Rule Engine script to check whether GSTR to be notified or not."
+		},
+		{
+			"id": "97e446fd-a432-4ada-8a1a-404591f5b9e3",
+			"name": "HRIA_FETCH_REGIONS",
+			"description": "fetch all available regions available"
+		},
+		{
+			"id": "ceb09b75-79d8-42dd-a891-b5aae3b90d69",
+			"name": "HRIA_FETCH_ERRMESSAGES",
+			"description": "script to fetch all the error messages for HRIA based on application"
+		},
+		{
+			"id": "1d5a8790-b77e-4a59-a29f-485012ba936b",
+			"name": "HRIA_FETCH_JOBID",
+			"description": "script to fetch the jobIDs"
+		},
+		{
+			"id": "17d72011-4689-4269-9acf-bc5c58aae34c",
+			"name": "HRIA_FETCH_PAYGRADETYPE_AVG_SALARY",
+			"description": "script to fetch pay grade type and its average salary."
+		},
+		{
+			"id": "74fcafbe-7457-4d89-ae89-e36bb4641dd6",
+			"name": "HRIA_RULE_ENGINE_CURRENCY_CONVERSION",
+			"description": "Rule Engine script to convert the target salary in local currency into its USD EQ."
+		},
+		{
+			"id": "8b68edbf-f08f-4c87-bae3-3f8bc8f6da9b",
+			"name": "HRIA_RULE_ENGINE_FETCH_SALARY_OFFER",
+			"description": "Rule Engine script to fetch the salary offer based on years Ex difference & country"
+		},
+		{
+			"id": "df3d5e1d-7893-45ea-ac17-9d4e6011fe03",
+			"name": "HRIA_FETCH_RULEID",
+			"description": "global script to fetch the rule ID to execute the rules in script"
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "7584c1f8-716a-4e65-a26f-b5719d3ec8b8",
+			"name": "HRIA",
+			"description": "scripts for HRIA"
+		}
+	],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": []
+}
